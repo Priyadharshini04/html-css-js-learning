@@ -235,3 +235,42 @@ cursor: pointer;
 .btn-color-2:hover {
     border: rgb(255,255,255) 0.1rem solid;
 }
+/*ALL SECTIONS*/
+
+
+/* ABOUT SECTION */
+#about{
+    position: relative;
+    flex-direction: column;
+}
+
+.section__about__text{
+    margin:10rem 3rem 5rem 5rem;
+}
+.about-containers{
+    gap: 2rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+.about-details-container{
+    justify-content: center;
+    flex-direction: column;
+}
+.about-containers,.about-details-container{
+    display: flex;
+}
+.details-container
+{
+    padding: 1.5rem;
+    flex:1;
+    background: white;
+    border-radius: 2rem;
+    border:rgb(53, 53, 53) 0.1rem solid;
+    border-color: rgb(163,163,163);
+    text-align:center;
+}
+.arrow{
+    position: absolute;
+    right: -5rem;
+    bottom: 2.5rem;
+}
